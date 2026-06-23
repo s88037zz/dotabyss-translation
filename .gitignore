@@ -7,3 +7,7 @@ Thumbs.db
 # Local backup archives
 *.rar
 *.zip
+
+# Local editor / agent settings
+.claude/
+**/.claude/
