@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "Bash(python \"C:\\\\Users\\\\huang\\\\count_simple.py\")",
+      "PowerShell(python \"C:\\\\Users\\\\huang\\\\merge_dictionary.py\")",
+      "Bash(rm \"D:/dotabyss-translation/dotabyss-translation-main/dictionary_descriptions.json\")"
+    ]
+  }
+}
