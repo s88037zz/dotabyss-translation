@@ -164,10 +164,10 @@ def main() -> None:
     tables["names"], n = merge_dict(tables.get("names", {}), ours_names)
     stats["names"] = f"Lienchu + ours (+{n})"
 
-    # ── 3. ui_texts ← add-on/ui ──
-    ui = load_json(root / "add-on" / "ui" / "zh_Hant.json")
-    tables["ui_texts"], n = merge_dict(tables.get("ui_texts", {}), ui)
-    stats["ui_texts"] = f"ui + Lienchu (+{n})"
+    # ── 3. ui_texts（已為權威來源；add-on/ui 已移除）──
+    ours_ui = load_json(root / "ui_texts" / "zh_Hant.json")
+    tables["ui_texts"], n = merge_dict(tables.get("ui_texts", {}), ours_ui)
+    stats["ui_texts"] = f"Lienchu + ours ui_texts (+{n})"
 
     # ── 4. m_tavern_character_cards ← bar（僅 masterdata 原文 key）──
     tavern_keys = collect_field_values(

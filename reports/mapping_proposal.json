@@ -1,0 +1,1123 @@
+{
+  "scanned_table_count": 127,
+  "dict_types_count": 129,
+  "tables_count": 128,
+  "field_map_count": 195,
+  "scanned_stems": [
+    "m_ability_details",
+    "m_ability_effect_types",
+    "m_abnormal_condition_types",
+    "m_accessories",
+    "m_armors",
+    "m_attribute_tags",
+    "m_battle_result_reactions",
+    "m_buff_types",
+    "m_building_skill_effect_descriptions",
+    "m_building_skill_levels",
+    "m_building_skill_params",
+    "m_building_skill_restricts",
+    "m_buildings",
+    "m_campaigns",
+    "m_chapter_areas",
+    "m_chapter_quests",
+    "m_chapter_repeat_quests",
+    "m_chapters",
+    "m_character_abilities",
+    "m_character_action_skills",
+    "m_character_profiles",
+    "m_character_skins",
+    "m_content_type_details",
+    "m_defend_stages",
+    "m_defensive_unit_effect_tags",
+    "m_defensive_units",
+    "m_degrees",
+    "m_description_text_colors",
+    "m_dictionary_enemies",
+    "m_dictionary_enemy_groups",
+    "m_dictionary_non_player_character_groups",
+    "m_dictionary_non_player_characters",
+    "m_dictionary_world_groups",
+    "m_dictionary_worlds",
+    "m_disaster_boss_messages",
+    "m_disaster_boss_restricts",
+    "m_disaster_bosses",
+    "m_disaster_level_restricts",
+    "m_disaster_quests",
+    "m_dungeons",
+    "m_enchantment_details",
+    "m_encounter_campaigns",
+    "m_encounter_quests",
+    "m_enemies",
+    "m_enemy_skills",
+    "m_event_commission_quests",
+    "m_event_commission_supplied_items",
+    "m_event_currencies",
+    "m_event_miner_quest_restricts",
+    "m_event_miner_quests",
+    "m_event_story_stages",
+    "m_event_top_characters",
+    "m_events",
+    "m_exchange_categories",
+    "m_feature_lock_conditions",
+    "m_feature_locks",
+    "m_gacha_group_movies",
+    "m_gacha_groups",
+    "m_gachas",
+    "m_home_stage_characters",
+    "m_idle_exploration_log_messages",
+    "m_idle_exploration_map_areas",
+    "m_idle_exploration_maps",
+    "m_interaction_voices",
+    "m_items",
+    "m_jobs",
+    "m_limited_items",
+    "m_login_announcements",
+    "m_login_bonus_resources",
+    "m_mana_gem_auto_conditions",
+    "m_mana_gems",
+    "m_mileage_reward_details",
+    "m_mine_stages",
+    "m_mission_passes",
+    "m_mission_terms",
+    "m_missions",
+    "m_nether_battle_stages",
+    "m_nether_code_category_skills",
+    "m_nether_codes",
+    "m_nether_floor_event_parts",
+    "m_nether_floor_events",
+    "m_nether_floor_restricts",
+    "m_nether_spheres",
+    "m_nethers",
+    "m_ng_words",
+    "m_novel_character_skins",
+    "m_novel_characters",
+    "m_novel_events",
+    "m_novel_homes",
+    "m_novel_main_chapters",
+    "m_novel_mains",
+    "m_novel_others",
+    "m_novel_prologues",
+    "m_override_buff_types",
+    "m_part_voices",
+    "m_payment_appstore_products",
+    "m_payment_dmm_products",
+    "m_payment_gachas",
+    "m_payment_googleplay_products",
+    "m_payment_lineups",
+    "m_payment_recommends",
+    "m_payment_sub_categories",
+    "m_payment_subscriptions",
+    "m_plan_restricts",
+    "m_plan_step_serifs",
+    "m_plan_steps",
+    "m_plans",
+    "m_preregist_taverns",
+    "m_preregist_x_messages",
+    "m_present_messages",
+    "m_present_titles",
+    "m_special_missions",
+    "m_supplied_items",
+    "m_tavern_building_info",
+    "m_tavern_cards",
+    "m_tavern_character_cards",
+    "m_tavern_dialogue",
+    "m_tavern_text_color",
+    "m_tavern_works",
+    "m_texts",
+    "m_transition_tips",
+    "m_union_request_stages",
+    "m_union_request_supplied_items",
+    "m_union_types",
+    "m_visitors",
+    "m_weapon_skins",
+    "m_weapons"
+  ],
+  "mapping": {
+    "_comment": "MasterData 翻译映射配置。表 → 字段 → 翻译字典。新增表只需在此追加，无需改 C# 代码。",
+    "_dicts": "dict 值对应 TranslationPaths 的类型名 / CDN 目录名（names/titles/descriptions/...）",
+    "_seal": "seal=true 表示译文走 RestoreSealNames 后处理（纹章名繁简修正）",
+    "_fallback": "同字段的多个条目构成 fallback 链：按顺序查，第一个命中即用，未命中继续下一个",
+    "dict_types": [
+      "m_ability_details",
+      "m_buff_types",
+      "m_chapter_quests",
+      "m_character_action_skills",
+      "m_character_profiles",
+      "m_character_skins",
+      "m_dictionary_non_player_characters",
+      "m_dictionary_worlds",
+      "m_enemy_skills",
+      "m_enchantment_details",
+      "m_event_top_characters",
+      "m_gacha_group_movies",
+      "m_missions",
+      "m_nether_floor_event_parts",
+      "m_nether_floor_events",
+      "m_nether_code_category_skills",
+      "m_nether_codes",
+      "m_novel_character_skins",
+      "m_novel_characters",
+      "m_novel_events",
+      "m_novel_homes",
+      "m_novel_mains",
+      "m_novel_others",
+      "m_novel_prologues",
+      "m_part_voices",
+      "m_plans",
+      "m_preregist_taverns",
+      "m_tavern_character_cards",
+      "m_ability_effect_types",
+      "m_abnormal_condition_types",
+      "m_accessories",
+      "m_armors",
+      "m_attribute_tags",
+      "m_battle_result_reactions",
+      "m_building_skill_effect_descriptions",
+      "m_building_skill_levels",
+      "m_building_skill_params",
+      "m_building_skill_restricts",
+      "m_buildings",
+      "m_campaigns",
+      "m_chapter_areas",
+      "m_chapter_repeat_quests",
+      "m_chapters",
+      "m_character_abilities",
+      "m_content_type_details",
+      "m_defend_stages",
+      "m_defensive_unit_effect_tags",
+      "m_defensive_units",
+      "m_degrees",
+      "m_description_text_colors",
+      "m_dictionary_enemies",
+      "m_dictionary_enemy_groups",
+      "m_dictionary_non_player_character_groups",
+      "m_dictionary_world_groups",
+      "m_disaster_boss_messages",
+      "m_disaster_boss_restricts",
+      "m_disaster_bosses",
+      "m_disaster_level_restricts",
+      "m_disaster_quests",
+      "m_dungeons",
+      "m_encounter_campaigns",
+      "m_encounter_quests",
+      "m_enemies",
+      "m_event_commission_quests",
+      "m_event_commission_supplied_items",
+      "m_event_currencies",
+      "m_event_miner_quest_restricts",
+      "m_event_miner_quests",
+      "m_event_story_stages",
+      "m_events",
+      "m_exchange_categories",
+      "m_feature_lock_conditions",
+      "m_feature_locks",
+      "m_gacha_groups",
+      "m_gachas",
+      "m_home_stage_characters",
+      "m_idle_exploration_log_messages",
+      "m_idle_exploration_map_areas",
+      "m_idle_exploration_maps",
+      "m_interaction_voices",
+      "m_items",
+      "m_jobs",
+      "m_limited_items",
+      "m_login_announcements",
+      "m_login_bonus_resources",
+      "m_mana_gem_auto_conditions",
+      "m_mana_gems",
+      "m_mileage_reward_details",
+      "m_mine_stages",
+      "m_mission_passes",
+      "m_mission_terms",
+      "m_nether_battle_stages",
+      "m_nether_floor_restricts",
+      "m_nether_spheres",
+      "m_nethers",
+      "m_ng_words",
+      "m_novel_main_chapters",
+      "m_override_buff_types",
+      "m_payment_appstore_products",
+      "m_payment_dmm_products",
+      "m_payment_gachas",
+      "m_payment_googleplay_products",
+      "m_payment_lineups",
+      "m_payment_recommends",
+      "m_payment_sub_categories",
+      "m_payment_subscriptions",
+      "m_plan_restricts",
+      "m_plan_step_serifs",
+      "m_plan_steps",
+      "m_preregist_x_messages",
+      "m_present_messages",
+      "m_present_titles",
+      "m_special_missions",
+      "m_supplied_items",
+      "m_tavern_building_info",
+      "m_tavern_cards",
+      "m_tavern_dialogue",
+      "m_tavern_text_color",
+      "m_tavern_works",
+      "m_texts",
+      "m_transition_tips",
+      "m_union_request_stages",
+      "m_union_request_supplied_items",
+      "m_union_types",
+      "m_visitors",
+      "m_weapon_skins",
+      "m_weapons",
+      "names",
+      "ui_texts"
+    ],
+    "tables": {
+      "MAbilityDetails": {
+        "description": {
+          "dict": "m_ability_details",
+          "seal": true
+        },
+        "awake_description": {
+          "dict": "m_ability_details",
+          "seal": true
+        }
+      },
+      "MAbilityEffectTypes": {
+        "name": {
+          "dict": "m_ability_effect_types"
+        }
+      },
+      "MAbnormalConditionTypes": {
+        "name": {
+          "dict": "m_abnormal_condition_types"
+        },
+        "description": {
+          "dict": "m_abnormal_condition_types"
+        }
+      },
+      "MAccessories": {
+        "name": {
+          "dict": "m_accessories"
+        },
+        "flavor_text": {
+          "dict": "m_accessories"
+        }
+      },
+      "MArmors": {
+        "name": {
+          "dict": "m_armors"
+        },
+        "flavor_text": {
+          "dict": "m_armors"
+        }
+      },
+      "MAttributeTags": {
+        "name": {
+          "dict": "m_attribute_tags"
+        }
+      },
+      "MBattleResultReactions": {
+        "voice_text": {
+          "dict": "m_battle_result_reactions"
+        }
+      },
+      "MBuffTypes": {
+        "name": {
+          "dict": "m_buff_types"
+        },
+        "description": {
+          "dict": "m_buff_types"
+        }
+      },
+      "MBuildingSkillEffectDescriptions": {
+        "description": {
+          "dict": "m_building_skill_effect_descriptions"
+        }
+      },
+      "MBuildingSkillLevels": {
+        "name": {
+          "dict": "m_building_skill_levels"
+        }
+      },
+      "MBuildingSkillParams": {
+        "description": {
+          "dict": "m_building_skill_params"
+        }
+      },
+      "MBuildingSkillRestricts": {
+        "description": {
+          "dict": "m_building_skill_restricts"
+        }
+      },
+      "MBuildings": {
+        "name": {
+          "dict": "m_buildings"
+        }
+      },
+      "MCampaigns": {
+        "name": {
+          "dict": "m_campaigns"
+        }
+      },
+      "MChapterAreas": {
+        "name": {
+          "dict": "m_chapter_areas"
+        }
+      },
+      "MChapterQuests": {
+        "name": [
+          {
+            "dict": "m_chapter_quests"
+          },
+          {
+            "dict": "m_chapter_quests"
+          }
+        ]
+      },
+      "MChapterRepeatQuests": {
+        "name": {
+          "dict": "m_chapter_repeat_quests"
+        }
+      },
+      "MChapters": {
+        "name": {
+          "dict": "m_chapters"
+        }
+      },
+      "MCharacterAbilities": {
+        "name": {
+          "dict": "m_character_abilities"
+        }
+      },
+      "MCharacterActionSkills": {
+        "description": {
+          "dict": "m_character_action_skills",
+          "seal": true
+        }
+      },
+      "MCharacterProfiles": {
+        "flavor_text": {
+          "dict": "m_character_profiles"
+        },
+        "another_name": {
+          "dict": "m_character_profiles"
+        },
+        "catchphrase": {
+          "dict": "m_character_profiles"
+        },
+        "profile_like": {
+          "dict": "m_character_profiles"
+        },
+        "profile_dislike": {
+          "dict": "m_character_profiles"
+        }
+      },
+      "MCharacterSkins": {
+        "name": {
+          "dict": "m_character_skins"
+        },
+        "description": {
+          "dict": "m_character_skins"
+        },
+        "serif": {
+          "dict": "m_character_skins"
+        }
+      },
+      "MCharacters": {
+        "name": {
+          "dict": "names"
+        }
+      },
+      "MContentTypeDetails": {
+        "flavor_text": {
+          "dict": "m_content_type_details"
+        }
+      },
+      "MDefendStages": {
+        "name": {
+          "dict": "m_defend_stages"
+        }
+      },
+      "MDefensiveUnitEffectTags": {
+        "description": {
+          "dict": "m_defensive_unit_effect_tags"
+        }
+      },
+      "MDefensiveUnits": {
+        "name": {
+          "dict": "m_defensive_units"
+        },
+        "description": {
+          "dict": "m_defensive_units"
+        },
+        "parameter_description": {
+          "dict": "m_defensive_units"
+        },
+        "simple_description": {
+          "dict": "m_defensive_units"
+        }
+      },
+      "MDegrees": {
+        "display_text": {
+          "dict": "m_degrees"
+        }
+      },
+      "MDescriptionTextColors": {
+        "word": {
+          "dict": "m_description_text_colors"
+        }
+      },
+      "MDictionaryEnemies": {
+        "title": {
+          "dict": "m_dictionary_enemies"
+        },
+        "desciption": {
+          "dict": "m_dictionary_enemies"
+        }
+      },
+      "MDictionaryEnemyGroups": {
+        "title": {
+          "dict": "m_dictionary_enemy_groups"
+        },
+        "initial": {
+          "dict": "m_dictionary_enemy_groups"
+        }
+      },
+      "MDictionaryNonPlayerCharacterGroups": {
+        "title": {
+          "dict": "m_dictionary_non_player_character_groups"
+        },
+        "initial": {
+          "dict": "m_dictionary_non_player_character_groups"
+        }
+      },
+      "MDictionaryNonPlayerCharacters": {
+        "title": {
+          "dict": "m_dictionary_non_player_characters"
+        },
+        "desciption": {
+          "dict": "m_dictionary_non_player_characters"
+        }
+      },
+      "MDictionaryWorldGroups": {
+        "title": {
+          "dict": "m_dictionary_world_groups"
+        },
+        "initial": {
+          "dict": "m_dictionary_world_groups"
+        }
+      },
+      "MDictionaryWorlds": {
+        "title": {
+          "dict": "m_dictionary_worlds"
+        },
+        "desciption": {
+          "dict": "m_dictionary_worlds"
+        }
+      },
+      "MDisasterBossMessages": {
+        "message": {
+          "dict": "m_disaster_boss_messages"
+        }
+      },
+      "MDisasterBossRestricts": {
+        "description": {
+          "dict": "m_disaster_boss_restricts"
+        }
+      },
+      "MDisasterBosses": {
+        "name": {
+          "dict": "m_disaster_bosses"
+        }
+      },
+      "MDisasterLevelRestricts": {
+        "description": {
+          "dict": "m_disaster_level_restricts"
+        }
+      },
+      "MDisasterQuests": {
+        "name": {
+          "dict": "m_disaster_quests"
+        }
+      },
+      "MDungeons": {
+        "name": {
+          "dict": "m_dungeons"
+        }
+      },
+      "MEnchantmentDetails": {
+        "name": {
+          "dict": "m_enchantment_details"
+        },
+        "description": {
+          "dict": "m_enchantment_details"
+        }
+      },
+      "MEncounterCampaigns": {
+        "name": {
+          "dict": "m_encounter_campaigns"
+        }
+      },
+      "MEncounterQuests": {
+        "name": {
+          "dict": "m_encounter_quests"
+        }
+      },
+      "MEnemies": {
+        "name": {
+          "dict": "m_enemies"
+        },
+        "description": {
+          "dict": "m_enemies"
+        },
+        "flavor_text": {
+          "dict": "m_enemies"
+        }
+      },
+      "MEnemySkills": {
+        "name": {
+          "dict": "m_enemy_skills"
+        },
+        "description": {
+          "dict": "m_enemy_skills"
+        }
+      },
+      "MEventCommissionQuests": {
+        "name": {
+          "dict": "m_event_commission_quests"
+        }
+      },
+      "MEventCommissionSuppliedItems": {
+        "condition_text": {
+          "dict": "m_event_commission_supplied_items"
+        },
+        "party_num_summary_text": {
+          "dict": "m_event_commission_supplied_items"
+        }
+      },
+      "MEventCurrencies": {
+        "name": {
+          "dict": "m_event_currencies"
+        },
+        "flavor_text": {
+          "dict": "m_event_currencies"
+        }
+      },
+      "MEventMinerQuestRestricts": {
+        "description": {
+          "dict": "m_event_miner_quest_restricts"
+        }
+      },
+      "MEventMinerQuests": {
+        "name": {
+          "dict": "m_event_miner_quests"
+        }
+      },
+      "MEventStoryStages": {
+        "name": {
+          "dict": "m_event_story_stages"
+        }
+      },
+      "MEventTopCharacters": {
+        "serif": {
+          "dict": "m_event_top_characters"
+        }
+      },
+      "MEvents": {
+        "name": {
+          "dict": "m_events"
+        }
+      },
+      "MExchangeCategories": {
+        "category_name": {
+          "dict": "m_exchange_categories"
+        }
+      },
+      "MFeatureLockConditions": {
+        "condition_text": {
+          "dict": "m_feature_lock_conditions"
+        }
+      },
+      "MFeatureLocks": {
+        "name": {
+          "dict": "m_feature_locks"
+        }
+      },
+      "MGachaGroupMovies": {
+        "story_flavor_1": {
+          "dict": "m_gacha_group_movies"
+        },
+        "story_flavor_2": {
+          "dict": "m_gacha_group_movies"
+        },
+        "story_flavor_3": {
+          "dict": "m_gacha_group_movies"
+        },
+        "skill_flavor": {
+          "dict": "m_gacha_group_movies"
+        },
+        "skill_name": {
+          "dict": "m_gacha_group_movies"
+        }
+      },
+      "MGachaGroups": {
+        "name": {
+          "dict": "m_gacha_groups"
+        },
+        "description": {
+          "dict": "m_gacha_groups"
+        }
+      },
+      "MGachas": {
+        "pickup_label": {
+          "dict": "m_gachas"
+        }
+      },
+      "MHomeStageCharacters": {
+        "serif": {
+          "dict": "m_home_stage_characters"
+        }
+      },
+      "MIdleExplorationLogMessages": {
+        "message": {
+          "dict": "m_idle_exploration_log_messages"
+        }
+      },
+      "MIdleExplorationMapAreas": {
+        "name": {
+          "dict": "m_idle_exploration_map_areas"
+        }
+      },
+      "MIdleExplorationMaps": {
+        "name": {
+          "dict": "m_idle_exploration_maps"
+        }
+      },
+      "MInteractionVoices": {
+        "title": {
+          "dict": "m_interaction_voices"
+        }
+      },
+      "MItems": {
+        "name": {
+          "dict": "m_items"
+        },
+        "flavor_text": {
+          "dict": "m_items"
+        }
+      },
+      "MJobs": {
+        "name": {
+          "dict": "m_jobs"
+        }
+      },
+      "MLimitedItems": {
+        "name": {
+          "dict": "m_limited_items"
+        },
+        "flavor_text": {
+          "dict": "m_limited_items"
+        }
+      },
+      "MLoginAnnouncements": {
+        "title": {
+          "dict": "m_login_announcements"
+        }
+      },
+      "MLoginBonusResources": {
+        "serif": {
+          "dict": "m_login_bonus_resources"
+        }
+      },
+      "MManaGemAutoConditions": {
+        "description": {
+          "dict": "m_mana_gem_auto_conditions"
+        }
+      },
+      "MManaGems": {
+        "name": {
+          "dict": "m_mana_gems"
+        },
+        "flavor_text": {
+          "dict": "m_mana_gems"
+        },
+        "append_effect_description": {
+          "dict": "m_mana_gems"
+        },
+        "append_effect_description_ingame": {
+          "dict": "m_mana_gems"
+        },
+        "effect_description": {
+          "dict": "m_mana_gems"
+        }
+      },
+      "MMileageRewardDetails": {
+        "description": {
+          "dict": "m_mileage_reward_details"
+        }
+      },
+      "MMineStages": {
+        "name": {
+          "dict": "m_mine_stages"
+        }
+      },
+      "MMissionPasses": {
+        "name": {
+          "dict": "m_mission_passes"
+        }
+      },
+      "MMissionTerms": {
+        "title": {
+          "dict": "m_mission_terms"
+        }
+      },
+      "MMissions": {
+        "title": {
+          "dict": "m_missions"
+        },
+        "description": {
+          "dict": "m_missions"
+        }
+      },
+      "MNetherBattleStages": {
+        "name": {
+          "dict": "m_nether_battle_stages"
+        }
+      },
+      "MNetherCodeCategorySkills": {
+        "name": {
+          "dict": "m_nether_code_category_skills"
+        },
+        "description": {
+          "dict": "m_nether_code_category_skills"
+        }
+      },
+      "MNetherCodes": {
+        "name": {
+          "dict": "m_nether_codes"
+        },
+        "description": {
+          "dict": "m_nether_codes"
+        }
+      },
+      "MNetherFloorEventParts": {
+        "select_text": {
+          "dict": "m_nether_floor_event_parts"
+        },
+        "effect_text": {
+          "dict": "m_nether_floor_event_parts"
+        }
+      },
+      "MNetherFloorEvents": {
+        "description": {
+          "dict": "m_nether_floor_events"
+        }
+      },
+      "MNetherFloorRestricts": {
+        "description": {
+          "dict": "m_nether_floor_restricts"
+        }
+      },
+      "MNetherSpheres": {
+        "description": {
+          "dict": "m_nether_spheres"
+        }
+      },
+      "MNethers": {
+        "title": {
+          "dict": "m_nethers"
+        },
+        "description": {
+          "dict": "m_nethers"
+        }
+      },
+      "MNgWords": {
+        "keyword": {
+          "dict": "m_ng_words"
+        }
+      },
+      "MNovelCharacterSkins": {
+        "title": {
+          "dict": "m_novel_character_skins"
+        },
+        "description": {
+          "dict": "m_novel_character_skins"
+        }
+      },
+      "MNovelCharacters": {
+        "title": {
+          "dict": "m_novel_characters"
+        },
+        "description": {
+          "dict": "m_novel_characters"
+        }
+      },
+      "MNovelEvents": {
+        "title": {
+          "dict": "m_novel_events"
+        },
+        "description": {
+          "dict": "m_novel_events"
+        }
+      },
+      "MNovelHomes": {
+        "title": {
+          "dict": "m_novel_homes"
+        }
+      },
+      "MNovelMainChapters": {
+        "title": {
+          "dict": "m_novel_main_chapters"
+        },
+        "message": {
+          "dict": "m_novel_main_chapters"
+        }
+      },
+      "MNovelMains": {
+        "title": {
+          "dict": "m_novel_mains"
+        },
+        "description": {
+          "dict": "m_novel_mains"
+        }
+      },
+      "MNovelOthers": {
+        "title": {
+          "dict": "m_novel_others"
+        },
+        "description": {
+          "dict": "m_novel_others"
+        },
+        "category_name": {
+          "dict": "m_novel_others"
+        }
+      },
+      "MNovelPrologues": {
+        "title": {
+          "dict": "m_novel_prologues"
+        },
+        "description": {
+          "dict": "m_novel_prologues"
+        }
+      },
+      "MOverrideBuffTypes": {
+        "name": {
+          "dict": "m_override_buff_types"
+        },
+        "description": {
+          "dict": "m_override_buff_types"
+        }
+      },
+      "MPartVoices": {
+        "text": {
+          "dict": "m_part_voices"
+        }
+      },
+      "MPaymentAppstoreProducts": {
+        "name": {
+          "dict": "m_payment_appstore_products"
+        },
+        "description": {
+          "dict": "m_payment_appstore_products"
+        }
+      },
+      "MPaymentDmmProducts": {
+        "name": {
+          "dict": "m_payment_dmm_products"
+        },
+        "description": {
+          "dict": "m_payment_dmm_products"
+        }
+      },
+      "MPaymentGachas": {
+        "name": {
+          "dict": "m_payment_gachas"
+        },
+        "description": {
+          "dict": "m_payment_gachas"
+        }
+      },
+      "MPaymentGoogleplayProducts": {
+        "name": {
+          "dict": "m_payment_googleplay_products"
+        },
+        "description": {
+          "dict": "m_payment_googleplay_products"
+        }
+      },
+      "MPaymentLineups": {
+        "name": {
+          "dict": "m_payment_lineups"
+        },
+        "pickup_text": {
+          "dict": "m_payment_lineups"
+        }
+      },
+      "MPaymentRecommends": {
+        "name": {
+          "dict": "m_payment_recommends"
+        }
+      },
+      "MPaymentSubCategories": {
+        "category_text": {
+          "dict": "m_payment_sub_categories"
+        }
+      },
+      "MPaymentSubscriptions": {
+        "name": {
+          "dict": "m_payment_subscriptions"
+        }
+      },
+      "MPlanRestricts": {
+        "description": {
+          "dict": "m_plan_restricts"
+        }
+      },
+      "MPlanStepSerifs": {
+        "serif": {
+          "dict": "m_plan_step_serifs"
+        }
+      },
+      "MPlanSteps": {
+        "name": {
+          "dict": "m_plan_steps"
+        }
+      },
+      "MPlans": {
+        "name": {
+          "dict": "m_plans"
+        },
+        "description": {
+          "dict": "m_plans"
+        },
+        "display_name": {
+          "dict": "m_plans"
+        }
+      },
+      "MPreregistTaverns": {
+        "title": {
+          "dict": "m_preregist_taverns"
+        }
+      },
+      "MPreregistXMessages": {
+        "message": {
+          "dict": "m_preregist_x_messages"
+        }
+      },
+      "MPresentMessages": {
+        "message": {
+          "dict": "m_present_messages"
+        }
+      },
+      "MPresentTitles": {
+        "title": {
+          "dict": "m_present_titles"
+        }
+      },
+      "MSpecialMissions": {
+        "name": {
+          "dict": "m_special_missions"
+        }
+      },
+      "MSuppliedItems": {
+        "name": {
+          "dict": "m_supplied_items"
+        }
+      },
+      "MTavernBuildingInfo": {
+        "name": {
+          "dict": "m_tavern_building_info"
+        }
+      },
+      "MTavernCards": {
+        "name": {
+          "dict": "m_tavern_cards"
+        },
+        "description": {
+          "dict": "m_tavern_cards"
+        }
+      },
+      "MTavernCharacterCards": {
+        "name": {
+          "dict": "m_tavern_character_cards"
+        },
+        "description": {
+          "dict": "m_tavern_character_cards"
+        }
+      },
+      "MTavernDialogue": {
+        "name": {
+          "dict": "names"
+        },
+        "dialogue": {
+          "dict": "m_tavern_dialogue"
+        }
+      },
+      "MTavernTextColor": {
+        "word": {
+          "dict": "m_tavern_text_color"
+        }
+      },
+      "MTavernWorks": {
+        "name": {
+          "dict": "m_tavern_works"
+        }
+      },
+      "MTexts": {
+        "ja": {
+          "dict": "m_texts"
+        }
+      },
+      "MTransitionTips": {
+        "title": {
+          "dict": "m_transition_tips"
+        },
+        "flavor_text": {
+          "dict": "m_transition_tips"
+        }
+      },
+      "MUnionRequestStages": {
+        "name": {
+          "dict": "m_union_request_stages"
+        }
+      },
+      "MUnionRequestSuppliedItems": {
+        "condition_text": {
+          "dict": "m_union_request_supplied_items"
+        },
+        "party_num_summary_text": {
+          "dict": "m_union_request_supplied_items"
+        }
+      },
+      "MUnionTypes": {
+        "name": {
+          "dict": "m_union_types"
+        }
+      },
+      "MVisitors": {
+        "name": {
+          "dict": "m_visitors"
+        },
+        "title": {
+          "dict": "m_visitors"
+        },
+        "description": {
+          "dict": "m_visitors"
+        }
+      },
+      "MWeaponSkins": {
+        "name": {
+          "dict": "m_weapon_skins"
+        },
+        "description": {
+          "dict": "m_weapon_skins"
+        }
+      },
+      "MWeapons": {
+        "name": {
+          "dict": "m_weapons"
+        },
+        "flavor_text": {
+          "dict": "m_weapons"
+        }
+      }
+    }
+  }
+}

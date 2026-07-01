@@ -25,7 +25,7 @@ rows = [
     ("技能", "m_ability_details", "ability_descriptions"),
     ("主動技", "m_character_action_skills", None),
     ("深淵代碼", "m_nether_codes", "add-on/abyss_code"),
-    ("UI", "ui_texts", "add-on/ui"),
+    ("UI", "ui_texts", "ui_texts"),
     ("角色檔", "m_character_profiles", "descriptions"),
 ]
 for label, a, o in rows:

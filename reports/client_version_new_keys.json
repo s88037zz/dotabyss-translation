@@ -1,0 +1,17 @@
+{
+  "static_new_by_table": {},
+  "ui_new": {},
+  "names_new": {},
+  "only_client_tables": [],
+  "only_client_novel_chapters": [],
+  "novel_new_by_chapter": {},
+  "summary": {
+    "static_new_total": 0,
+    "ui_new_total": 0,
+    "names_new_total": 0,
+    "novel_new_total": 0,
+    "grand_new_total": 0,
+    "novel_revision_total": 0,
+    "ui_revision_in_ui_texts": 0
+  }
+}

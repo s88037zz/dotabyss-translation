@@ -30,20 +30,7 @@ MAPPING_JSON = (
 RUNTIME_KEY_RE = re.compile(r"<color|</color>|\{[0-9]+\}|<br", re.I)
 
 LEGACY_TOP = ("titles", "descriptions", "another_name", "ability_descriptions")
-LEGACY_ADDON = (
-    "abyss_code",
-    "bar",
-    "catchphrase",
-    "dialogue",
-    "dictionary",
-    "equipment_effect",
-    "facility",
-    "items",
-    "materials",
-    "mission",
-    "system",
-    "ui_misc",
-)
+LEGACY_ADDON = ("ui_misc",)
 LEGACY_OTHER_PREFIX = ("legacy/add-on/ui_misc", "other/")
 
 

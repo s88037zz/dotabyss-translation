@@ -1,0 +1,69 @@
+{
+  "_comment": "手工覆寫 gen_master_mapping 掃描結果。skip_tables / skip_stems 不生成 mapping。table_fields 強制字段與 dict。",
+  "skip_stems": [
+    "m_characters"
+  ],
+  "table_overrides": {
+    "MCharacters": {
+      "name": { "dict": "names" }
+    },
+    "MTavernDialogue": {
+      "name": { "dict": "names" },
+      "dialogue": { "dict": "m_tavern_dialogue" }
+    },
+    "MAbilityDetails": {
+      "description": { "dict": "m_ability_details", "seal": true },
+      "awake_description": { "dict": "m_ability_details", "seal": true }
+    },
+    "MCharacterActionSkills": {
+      "description": { "dict": "m_character_action_skills", "seal": true }
+    },
+    "MChapterQuests": {
+      "name": [
+        { "dict": "m_chapter_quests" },
+        { "dict": "m_chapter_quests" }
+      ]
+    }
+  },
+  "dict_seal_fields": {
+    "m_ability_details": ["description", "awake_description"],
+    "m_character_action_skills": ["description"]
+  },
+  "force_include_stems": [
+    "m_items",
+    "m_weapons",
+    "m_armors",
+    "m_accessories",
+    "m_buildings",
+    "m_event_currencies",
+    "m_dungeons",
+    "m_event_story_stages",
+    "m_transition_tips",
+    "m_dictionary_enemies",
+    "m_enemies",
+    "m_tavern_dialogue",
+    "m_encounter_quests",
+    "m_union_request_stages",
+    "m_nether_battle_stages",
+    "m_character_abilities",
+    "m_gacha_groups",
+    "m_interaction_voices",
+    "m_battle_result_reactions",
+    "m_building_skill_effect_descriptions",
+    "m_tavern_cards",
+    "m_tavern_works",
+    "m_weapon_skins",
+    "m_building_skill_levels",
+    "m_building_skill_params",
+    "m_building_skill_restricts",
+    "m_payment_appstore_products",
+    "m_payment_dmm_products",
+    "m_payment_googleplay_products",
+    "m_payment_lineups",
+    "m_payment_recommends",
+    "m_payment_sub_categories",
+    "m_feature_locks",
+    "m_feature_lock_conditions",
+    "m_description_text_colors"
+  ]
+}

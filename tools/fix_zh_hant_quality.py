@@ -42,7 +42,6 @@ SOURCE_PRIORITY = (
     "m_character_profiles",
     "m_ability_details",
     "m_dictionary_non_player_characters",
-    "add-on/ui",
     "add-on/facility",
     "add-on/mission",
     "add-on/system",

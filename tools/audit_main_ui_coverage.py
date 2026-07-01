@@ -47,7 +47,6 @@ def lookup(k: str, sources: list[tuple[str, dict[str, str]]]) -> tuple[str, str]
 def main() -> None:
     ui_texts = load(ROOT / "ui_texts" / "zh_Hant.json")
     fallback_sources = [
-        ("add-on/ui", load(ROOT / "add-on" / "ui" / "zh_Hant.json")),
         ("add-on/ui_misc", load(ROOT / "add-on" / "ui_misc" / "zh_Hant.json")),
         ("legacy/ui_misc", load(ROOT / "legacy" / "add-on" / "ui_misc" / "zh_Hant.json")),
         ("add-on/system", load(ROOT / "add-on" / "system" / "zh_Hant.json")),
@@ -59,9 +58,6 @@ def main() -> None:
 
     candidates: set[str] = set()
     for k in dump_keys:
-        if is_main_ui_candidate(k):
-            candidates.add(k)
-    for k in fallback_sources[0][1]:
         if is_main_ui_candidate(k):
             candidates.add(k)
 
@@ -78,12 +74,6 @@ def main() -> None:
             unstable.append((k, hit[0], hit[1]))
         else:
             missing.append(k)
-
-    addon_ui_only = [
-        (k, v)
-        for k, v in fallback_sources[0][1].items()
-        if k not in ui_texts and is_main_ui_candidate(k) and k not in candidates
-    ]
 
     print("# 主画面 UI 翻译路径审计\n")
     print(f"- ui_texts: {len(ui_texts)} 条")
@@ -108,23 +98,12 @@ def main() -> None:
         print(f"| `{k[:50]}` | `{src}` | {v[:35]} |")
     print()
 
-    print("## 3. add-on/ui 独有短 UI（建议迁入 ui_texts）\n")
-    shown = 0
-    for k, v in sorted(addon_ui_only, key=lambda x: len(x[0])):
-        if k in {x[0] for x in unstable}:
-            continue
-        print(f"- `{k[:55]}` → `{v[:40]}` （仅 add-on/ui）")
-        shown += 1
-        if shown >= 20:
-            break
-    print()
-
-    print("## 4. 建议优先补进 ui_texts（来自 dump，当前无 ui_texts）\n")
+    print("## 3. 建议优先补进 ui_texts（来自 dump，当前无 ui_texts）\n")
     for k, src, v in unstable:
         if k in dump_keys:
             print(f"- `{k[:55]}` → `{v[:40]}` （现于 `{src}`）")
     if missing:
-        print("\n## 5. 完全无表（高优先级）\n")
+        print("\n## 4. 完全无表（高优先级）\n")
         for k in missing:
             print(f"- `{k}`")
 

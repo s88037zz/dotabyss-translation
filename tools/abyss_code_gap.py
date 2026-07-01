@@ -18,7 +18,7 @@ TRANS = ROOT / "translations"
 LOOKUP = [
     "add-on/abyss_code/zh_Hant.json",
     "add-on/system/zh_Hant.json",
-    "add-on/ui/zh_Hant.json",
+    "ui_texts/zh_Hant.json",
     "add-on/ui_misc/zh_Hant.json",
     "other/abyss_code/zh_Hant.json",
 ]
